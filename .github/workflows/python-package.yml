@@ -36,5 +36,6 @@ jobs:
         cd ./venv
         pip install astor
         pip install trustme
+        pip install pyOpenSSL
         pip install pytest
         pytest
